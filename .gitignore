@@ -1,0 +1,9 @@
+# Debug symbols (too large for git, included in dev release zip)
+*.pdb
+
+# Runtime generated files
+cache/
+UE4SS.log
+
+# Release archives (attached to GitHub releases)
+*.zip
