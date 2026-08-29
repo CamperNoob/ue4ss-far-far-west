@@ -107,5 +107,5 @@ ue4ss/
 
 ## Credits
 
-- **[UE4SS](https://github.com/UE4SS-RE/RE-UE4SS)** by the UE4SS team — the runtime modding framework this build is based on. Licensed under [MIT License](ue4ss/LICENSE).
-- AOB signatures for Far Far West were extracted using [x64dbg](https://x64dbg.com/) from a blank UE 5.7 Shipping build.
+- [ue4ss-far-far-west](https://github.com/anro772/ue4ss-far-far-west) by [anro7722](https://github.com/anro7722)
+- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) by the [UE4SS team](https://github.com/UE4SS-RE)
