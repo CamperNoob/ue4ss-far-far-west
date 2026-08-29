@@ -8,7 +8,7 @@ This repository contains a ready-to-use UE4SS v3.0.1 experimental build with cus
 
 Go to [Releases](../../releases) and download:
 - **`UE4SS-FarFarWest-v3.0.1-experimental.zip`** — For players and mod users (lightweight, no debug symbols)
-    - **`zDEV-UE4SS-FarFarWest-v3.0.1-experimental.zip`** — For mod developers (includes .pdb debug symbols) _(not available in this fork)_
+- **`zDEV-UE4SS-FarFarWest-v3.0.1-experimental.zip`** — For mod developers (includes .pdb debug symbols)
 
 ## Installation
 
@@ -101,11 +101,7 @@ ue4ss/
   VTableLayoutTemplates/        # VTable layout templates
 ```
 
-## Additions for FrostBurn update
-- Game now uses UE version 5.8.1 (hense ue4ss version change)
-- `HookProcessLocalScriptFunction` causes immediate startup crashes
-
 ## Credits
 
-- [ue4ss-far-far-west](https://github.com/anro772/ue4ss-far-far-west) by [anro7722](https://github.com/anro7722)
-- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) by the [UE4SS team](https://github.com/UE4SS-RE)
+- **[UE4SS](https://github.com/UE4SS-RE/RE-UE4SS)** by the UE4SS team — the runtime modding framework this build is based on. Licensed under [MIT License](ue4ss/LICENSE).
+- AOB signatures for Far Far West were extracted using [x64dbg](https://x64dbg.com/) from a blank UE 5.7 Shipping build.
