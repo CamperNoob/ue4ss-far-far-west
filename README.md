@@ -4,6 +4,10 @@ Custom [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) configuration for **Far Far
 
 This repository contains a ready-to-use UE4SS v3.0.1 experimental build with custom AOB signatures that enable full runtime modding support for Far Far West.
 
+## Additions for FrostBurn update
+- Game now uses UE version 5.8.1 (hence ue4ss version change)
+- `HookProcessLocalScriptFunction` causes immediate startup crashes
+
 ## Download
 
 Go to [Releases](../../releases) and download:
@@ -100,10 +104,6 @@ ue4ss/
   MemberVarLayoutTemplates/     # Memory layout templates per UE version
   VTableLayoutTemplates/        # VTable layout templates
 ```
-
-## Additions for FrostBurn update
-- Game now uses UE version 5.8.1 (hense ue4ss version change)
-- `HookProcessLocalScriptFunction` causes immediate startup crashes
 
 ## Credits
 
